@@ -1,62 +1,143 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--CSS Styles -->
-    <link rel="stylesheet" href="assets/css/styles.css" />
-
-    <!-- Favicons -->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="assets/icons/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="assets/icons/favicon-32x32.png"
-    />
-
-    <!-- Animate CSS CDN -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <title>Jane Doe | Web Developer</title>
-  </head>
-
-  <body>
-    <!-- Navbar -->
-
-    <!-- Hero Section -->
-
-    <!-- More about -->
-
-    <!-- Skills section -->
-
-    <!-- Projects section -->
-
-    <!-- Contact section -->
-
-    <!-- Social accounts - Fixed to the right -->
-
-    <!-- Footer section -->
-
-    <!-- Website scripts -->
-    <script src="assets/js/app.js"></script>
-
-    <!-- Ion icons scripts -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <nav class="navbar">
+        <div class="brand">
+          <h2>C<span>S</span></h2>
+        </div>
+        <ul class="menu">
+          <li><a href="#" class="active">Inicio</a></li>
+          <li><a href="#">Quien Soy</a></li>
+          <li><a href="#">Experiencia</a></li>
+          <li><a href="#">Skills</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="info-content">
+        <h1>Yo soy <span>Catalina Silvestre </span></h1>
+        <br>
+        <h2>QA <span>Engineer</span></h2>
+        <br>
+        <p>Soy Ingeniera de Sistemas especializada en Calidad de Software, Desarrollo Ágil y Gerencia de Proyectos, me dedico a mejorar la calidad y eficiencia en proyectos tecnológicos.</p>
+        <br>
+         <a download href="/Users/Cata/Documents/Portafolio/portafolio_CataS/data/CV_Resume_español-1.pdf"><button class="download-cv">Download CV</button></a>
+      </div>
+      <img src="img/qa.jpeg" alt="">
+    </main>
+  </div>
+    <div class="about">
+      <img src="img/photo.jpeg" alt="">
+      <div class="about-info">
+        <h2>Quien soy yo</h2>
+        <div class="divider"></div>
+        <p>Ingeniera de Sistemas con más de 10 años de experiencia en garantizar la calidad del software mediante pruebas manuales y automatizadas. </p>
+        <p>Especializada en trabajo colaborativo para optimizar rendimientos y minimizar errores en pruebas funcionales y no funcionales, incluyendo el backend.</p>  
+        <p>Utilizo herramientas como RobotFramework, Java, y JIRA, junto con metodologías ágiles, para asegurar entregas eficientes y de alta calidad.</p>
+        <p>Comprometida a impulsar el éxito empresarial a través de soluciones innovadoras y un desarrollo de software confiable.</p> 
+        <a download href="/Users/Cata/Documents/Portafolio/portafolio_CataS/data/CV_Resume_español-1.pdf"><button class="download-cv">Read more</button></a>
+      </div>
+    </div>
+    <div class="portfolio">
+      <div class="portfolio-heading">
+        <h2>Experiencia</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="container">
+        <div class="card">
+          <div class="card__img">
+          </div>
+          <div class="card__title">
+            <h2>Project Description</h2>
+          </div>
+          <div class="card__proyect-links">
+            <a href="#">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="">
+              <i class="fas fa-globe-asia"></i>
+            </a>
+            <a href="">
+              <i class="fas fa-code"></i>
+            </a>
+          </div>
+          <div class="button-content">
+            <button class="project-details-button download-cv">
+              <a href="#">Project Details</a>
+            </button>
+          </div>
+        </div>
+    </div>
+    <div class="skill">
+      <div class="portfolio-heading">
+        <h2>Skills</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="container">
+        <div class="card">
+          <div class="card__img">
+          </div>
+          <div class="card__title">
+            <h2>Project Description</h2>
+          </div>
+          <div class="card__proyect-links">
+            <a href="#">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="">
+              <i class="fas fa-globe-asia"></i>
+            </a>
+            <a href="">
+              <i class="fas fa-code"></i>
+            </a>
+          </div>
+          <div class="button-content">
+            <button class="project-details-button download-cv">
+              <a href="#">Project Details</a>
+            </button>
+          </div>
+        </div>
+    </div>
+  
+  
+    <div class="contact-section">
+      <div class="contact-heading">
+        <h2>Mantente en contacto</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="container-contact">
+        <img src="https://res.cloudinary.com/freelancer2222222222222222/image/upload/v1650543288/samples/img-opacity50_jgruyl.png" alt="">
+        <div class="contact-form">
+          <h4>Send me a message...</h4>
+          <form class="form-group">
+            <input type="text" placeholder="Name" class="input">
+            <input type="email" placeholder="Email" class="input">
+            <textarea name="message" placeholder="Place your message here..."></textarea>
+            <button type="submit" class="btn-submit">Send message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  
+    <footer class="footer"> 
+      <div class="footer-content">
+        <h2>Catalina Silvestre Gutiérrez</h2>
+        <h5>QA Engenieer / QA manager</h5>
+      </div>
+      <div class="sotial-networks">
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-twitter-square"></i>
+      </div>
+    </footer>
   </body>
-</html>
